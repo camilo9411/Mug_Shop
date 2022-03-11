@@ -1,0 +1,25 @@
+{{template "base" .}}
+
+{{define "title"}}
+    Virtual Terminal
+{{end}}
+
+{{define "content"}}
+<h2>Virtual Terminal - testing air </h2>
+<hr>
+<form action="/payment-succeeded" method="post"
+    name="charge_form" id="charge_form"
+    class="d-block needs-validation charge-form"
+    autocomplete="off" novalidate="">
+
+    <div class="mb-3">
+        <label for="amount" class="from-label">Amount</label>
+        <input type="text"/>
+    </div>
+
+</form>
+{{end}}
+
+{{define "js"}}
+
+{{end}}
